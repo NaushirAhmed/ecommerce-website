@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+
+/* this a.active display the line below home and active property is there in navlink use it to show them*/
+a.active hr{
+    display:block;
+}
+@media (max-width: 640px) {
+    /* This is for mobile devices */
+    a.active{
+        background-color: black;
+        color: white;
+    }
+}
+
+::-webkit-scrollbar{
+    display:none
+}
